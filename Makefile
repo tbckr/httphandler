@@ -9,6 +9,10 @@ coverage:
 lint:
 	golangci-lint run ./...
 
+clean:
+	rm -rf dist
+	rm -rf coverage.txt
+
 pre:
 	pre-commit run --all-files
 

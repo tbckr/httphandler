@@ -76,6 +76,7 @@ repos:
         entry: bash -c "task license-header"
         language: system
         pass_filenames: false
+        stages: [ pre-commit ]
         # TODO: deactivated as long as this issues is not resolved: https://github.com/golang/go/issues/65608
 #      - id: govulncheck
 #        name: govulncheck
