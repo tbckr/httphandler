@@ -26,4 +26,4 @@ license:
         -ignore "venv/*" \
         .
 
-.PHONY: test coverage lint pre license
+.PHONY: test coverage lint pre license clean
